@@ -36,7 +36,7 @@ def hit?
   if choice == "h"
     sum = deal_card
   elsif choice == "s"
-    sum = sum
+    
   else
     invalid_command
     prompt_user
