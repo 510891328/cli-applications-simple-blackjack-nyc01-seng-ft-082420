@@ -54,10 +54,11 @@ end
 
 def runner
   welcome
-  initial_round
-  while 
-  hit?
-  display_card_total
+  sum = initial_round
+  while sum <= 21
+    hit?
+    display_card_total
+    
   
 end
     
