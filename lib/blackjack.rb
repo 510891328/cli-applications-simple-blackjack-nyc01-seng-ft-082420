@@ -30,7 +30,7 @@ def initial_round
   sum
 end
 
-def hit?
+def hit?(sum)
   prompt_user
   choice = get_user_input
   if choice == "h"
