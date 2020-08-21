@@ -58,7 +58,7 @@ def runner
   while sum <= 21 do
     sum = hit?(sum)
     display_card_total
-    
+  end
   
 end
     
