@@ -46,7 +46,7 @@ def hit?
 end
 
 def invalid_command
-  # code invalid_command here
+  puts ""
 end
 
 #####################################################
