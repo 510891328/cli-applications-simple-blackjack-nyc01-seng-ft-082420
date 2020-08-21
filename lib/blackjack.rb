@@ -31,10 +31,11 @@ def initial_round
 end
 
 def hit?
+  sum = initial_round
   prompt_user
   choice = get_user_input
   if choice == "h"
-    deal_card
+    sum += deal_card
   end
 end
 
