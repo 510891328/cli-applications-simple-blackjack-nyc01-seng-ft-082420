@@ -34,14 +34,13 @@ def hit?(sum)
   prompt_user
   choice = get_user_input
   if choice == "h"
-    sum = initial_round + deal_card
+    sum += deal_card
   elsif choice == "s"
-    sum = initial_round
+    sum
   else
     invalid_command
     prompt_user
   end
-  sum
 end
 
 def invalid_command
