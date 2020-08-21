@@ -12,6 +12,7 @@ end
 
 def prompt_user
   puts "Type 'h' to hi or 's' to stay"
+  gets.chomp
 end
 
 def get_user_input
