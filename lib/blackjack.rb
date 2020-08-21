@@ -34,7 +34,7 @@ def hit?
   prompt_user
   choice = get_user_input
   if choice == "h"
-    sum += initial_round + deal_card
+    sum = initial_round + deal_card
   elsif choice == "s"
     sum = initial_round
   else
