@@ -55,6 +55,7 @@ end
 def runner
   welcome
   initial_round
+  while 
   hit?
   display_card_total
   
